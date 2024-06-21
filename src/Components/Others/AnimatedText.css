@@ -1,0 +1,29 @@
+.animated-text {
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    color: #ff1f1f;
+}
+
+.animated-text span {
+    display: inline-block;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+.first3{
+    font-size: 49px;
+    font-weight: 800;
+    color: rgb(0, 12, 67);
+}
+.first4{
+    font-size: 55px;
+    color: rgb(45, 0, 99);
+}

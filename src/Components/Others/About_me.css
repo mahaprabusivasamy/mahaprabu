@@ -1,0 +1,33 @@
+/* aboutme */
+
+.main_abt{
+    display: flex;
+   justify-content: space-evenly;
+   background-color: #e6e9ff;
+}
+.img_abt img{
+    width: 350px;
+    height: 500px;
+    padding: 25px;
+}
+.about_mep{
+    width: 80%;
+    padding: 20px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    
+}
+.about_mep p{
+margin-top: 10px;
+font-size: 17px;
+}
+.about_mep .span{
+    margin-left: 20px;
+}
+
+
+.para{
+  padding-right: 10px;
+  letter-spacing: 1px;
+}

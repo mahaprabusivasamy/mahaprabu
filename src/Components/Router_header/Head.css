@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: "Quicksand", sans-serif;
+} */
+
+.header {
+    width: 100%;
+    padding: 20px;
+    background-color: #110a22;
+    color: white;
+    text-align: center;
+    position: static;
+    top: 0;
+    z-index: 1000;
+}
+.header{
+    border-bottom: 2px solid white;
+}
+.main {
+    display: flex;
+    width: 20%;
+    height: 90vh;
+    background-color: #f0f0f0;
+    /* padding-top: 70px; */
+     /* Adjust according to header height */
+    overflow: hidden;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    background-color: #110a22;
+    color: white;
+    /* position: fixed; */
+    top: 70px; /* Adjust according to header height */
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.nav ul li {
+    padding: 6px 14px;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.nav ul .li {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+.nav ul li:hover {
+    border-bottom: 4px solid rgb(211, 0, 0);
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    padding: 2px;
+    margin-left: 1%;
+    margin-bottom: 20px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.content {
+    margin-left: 25%;
+    width: 75%;
+    height: calc(100vh - 70px); /* Adjust according to header height */
+    overflow-y: scroll;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+}
+
+.content::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+
+.ss{
+    margin-left: 17%;
+}
+.ss h1{
+    font-family: "Playwrite AU SA", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,38 @@
+.mains_one{
+    display: flex;
+    flex-direction: row;
+}
+.main_content{
+width: 100%;
+height: 90vh;
+display: flex;
+flex-direction: column;
+padding: 10px;
+
+}
+.main_content h4{
+    text-align: center;
+    font-size: 25px;
+}
+/* grid */
+
+/* .App {
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+    color: #110a22;
+} */
+
+.header_p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.main_content{
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
