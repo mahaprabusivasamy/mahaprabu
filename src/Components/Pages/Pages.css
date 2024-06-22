@@ -36,3 +36,7 @@ padding: 10px;
     overflow-y: scroll;
     scrollbar-width: none;
 }
+
+.education_head{
+   font-size: 25px;
+}

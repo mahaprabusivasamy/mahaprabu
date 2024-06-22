@@ -20,7 +20,8 @@ function About(){
               <About_me/>
               <Skills hue="300" saturation="40" />
               <hr />
-            
+               <h1 className="education_head">Education</h1>
+                <Timeline/>
             </div>
             </div>
         </div>

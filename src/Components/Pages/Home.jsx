@@ -1,3 +1,4 @@
+import ImageSlider from "../ImageSlider/ImageSlider";
 import Header from "../Router_header/Header"
 import Heading from "../Router_header/Heading";
 import "./Pages.css"
@@ -12,6 +13,8 @@ function Home(){
             <Header/>
             <div className="main_content">
                 <h4>Home</h4>
+                <hr />
+                <ImageSlider/>
             </div>
             </div>
         </div>

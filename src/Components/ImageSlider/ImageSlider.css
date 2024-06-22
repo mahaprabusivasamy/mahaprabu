@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .slider {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slide {
+    display: none;
+    position: absolute;
+    width: 100%;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slide.active {
+    display: block;
+    position: relative;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .description-box {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: calc(100% - 40px);
+    max-width: 760px;
+ 
+  }
+  
